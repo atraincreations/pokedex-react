@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkcyan;
+    
+}
+
+.pokedex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pokemon {
+    border: 3px solid yellow;
+    border-radius: 5px;
+    background-color: lightgrey;
+    text-align: center;
+    width: 100px;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.name {
+    font-size: 12px;
+    font-family: "pokemon-font", monospace;
+    font-style: unset;
+    -webkit-font-smoothing: none;
+    text-align: left;
+    margin-left: -5px;
+    text-transform: capitalize;
+}
+
+.sprite {
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, .65);
+    width: 100%;
+}
+
+
+
